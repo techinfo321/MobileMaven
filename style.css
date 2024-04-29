@@ -1,0 +1,116 @@
+/* Resetting default list styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center the list items */
+    background-color: #333; /* Dark background color */
+}
+
+/* Styling navigation links */
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+/* Move the "Contact Us" button to the end */
+nav ul li:last-child {
+    margin-left: auto; /* Pushes the "Contact Us" button to the end */
+}
+
+/* Styling the header */
+header {
+    background-color: #2c3e50; /* Slightly darker background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+header h1 {
+    font-size: 24px; /* Increasing font size */
+    margin: 0;
+}
+
+header h1 br {
+    display: none; /* Removing line break */
+}
+
+
+
+/* Styling the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+article {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+article h2 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #555555;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+article p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+article p:last-child {
+    margin-bottom: 0; /* Remove margin from last paragraph */
+}
+.image-container {
+    max-width: 100%;
+    margin: 20px auto; /* Adjust margin as needed */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
+    overflow: hidden; /* Ensure image does not overflow its container */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1; /* Allow the main content to grow to fill the remaining space */
+    margin-bottom: 50px; /* Add space between the article and the footer */
+}
+
+
